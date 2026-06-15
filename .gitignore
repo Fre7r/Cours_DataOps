@@ -1,19 +1,21 @@
-# Données et base
+# Base et données
 *.duckdb
 *.duckdb.wal
-data/
 *.csv
 
+# Environnements virtuels
+venv*/
+.venv/
+
 # dbt
-target/
-dbt_packages/
-logs/
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
 
 # Python
 __pycache__/
 *.pyc
-venv*/
-.env
 
-# Soda / secrets
+# Prefect / Soda
+.prefect/
 .soda/
