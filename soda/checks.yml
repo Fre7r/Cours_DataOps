@@ -1,0 +1,9 @@
+checks for main.customer_revenue:
+  - row_count > 0
+  - missing_count(customer_id) = 0
+  - duplicate_count(customer_id) = 0
+  - min(total_revenue) >= 0
+
+checks for staging.orders:
+  - row_count > 0
+  - missing_count(order_id) = 0

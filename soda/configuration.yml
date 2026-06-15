@@ -1,0 +1,4 @@
+data_source ecommerce:
+  type: duckdb
+  path: warehouse.duckdb
+  read_only: true

@@ -1,0 +1,19 @@
+# Données et base
+*.duckdb
+*.duckdb.wal
+data/
+*.csv
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+venv*/
+.env
+
+# Soda / secrets
+.soda/
